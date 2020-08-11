@@ -1,0 +1,80 @@
+/* Naming convention notes:
+- ID names use camel case because that is my preference
+- Some class names are not in kebab case for backward compatibility */
+
+@import 'blogpost.css';
+@import 'home.css';
+@import 'nav.css';
+
+body {
+    color: #000;
+    font-family: lato, arial, helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+figcaption {
+    color: #333;
+}
+
+a:link,
+a:visited {
+    color: #000;
+}
+
+h2 {
+    font-weight: bold;
+    display: inline;
+    font-family: ubuntu, arial;
+}
+
+header {
+    text-align: center;
+    background-color: #000;
+    height: 60px;
+    padding-top: 20px;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0px;
+}
+
+#conWrapper {
+    display: flex;
+}
+
+.imageWrapper {
+    margin-left: 20px;
+}
+
+footer {
+    border-top: #000 1px solid;
+    text-align: center;
+    background-color: #fff;
+    height: 20px;
+    width: 100%;
+    padding: 50px;
+    position: fixed;
+    color: #000;
+    bottom: 0;
+
+}
+
+.underloop a {
+    text-decoration: none;
+    color: turquoise;
+}
+
+@media (max-width: 750px) {
+    #cadizImage {
+        width: 150px;
+    }
+}
+
+@media (max-width: 520px) {
+    #cadizImage {
+        width: 100px;
+    }
+}
